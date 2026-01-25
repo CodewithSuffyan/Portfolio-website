@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+* {
+  font-family: 'Saira', sans-serif;
+}
+
+@theme {
+  --color-dark-100: #1a1a1a;
+  --color-dark-200: #1f1f1f;
+  --color-dark-300: #2d2d2d;
+  --color-dark-400: #3d3d3d;
+  --color-purple: #8B5CF6;
+  --color-pink: #EC4899;
+  --color-blue: #3B82F6;
+}
+
+/* --- Typewriter Section --- */
+.typewriter {
+  display: inline-block; /* Ye zaroori hai taake width text ke mutabiq rahe */
+  overflow: hidden;
+  border-right: 3px solid #8B5CF6;
+  white-space: nowrap;
+  width: 0;
+  /* forwards: animation khatam hone par text wahi ruk jaye */
+  animation: 
+    typing 3.5s steps(30, end) forwards, 
+    blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  /* max-content browser ko batata hai ke jitna text hai sirf utni width lo */
+  to { width:max-content ; } 
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: #8B5CF6; }
+}
