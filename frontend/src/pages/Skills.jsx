@@ -13,12 +13,12 @@ const Skills = () => {
       icon: <FaReact className="text-[#61DAFB] w-8 h-8" />,
       tags: ["React 19", "Tailwind CSS", "Redux/Zustand"]
     },
-    {
-      title: "Backend Development",
-      desc: "Developing scalable server-side logic and robust RESTful APIs using Node.js and Express. Focused on building secure, efficient architectures with seamless middleware integration.",
-      icon: <SiExpress className="text-[#61DAFB] w-8 h-8" />, 
-      tags: ["Node.js", "Express", "JWT Auth"]
-    },
+   {
+  title: "Backend Development",
+  desc: "Developing scalable server-side logic and robust RESTful APIs using Node.js and Express. Focused on building secure, efficient architectures with seamless middleware integration.",
+  icon: <SiExpress className="text-[#61DAFB] w-8 h-8" />, // Is line ko check karein
+  tags: ["Node.js", "Express", "JWT Auth"]
+},
     {
       title: "Database Management",
       desc: "Architecting efficient NoSQL data models with MongoDB. Proficient in handling complex data relationships, indexing for performance, and ensuring data integrity using Mongoose ODM.",
