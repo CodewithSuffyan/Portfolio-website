@@ -5,16 +5,16 @@ import { FiGithub, FiExternalLink, FiSmartphone, FiMonitor } from 'react-icons/f
 const Projects = () => {
   const projects = [
     {
-      id: 1,
-      title: "E-Commerce Platform",
-      category: "Web App",
+      id: 1,  // ← Netflix clone yahan add hoga
+      title: "Netflix Clone",
+      category: "Streaming Platform",
       type: "web",
-      desc: "A full-featured online store with shopping cart, user authentication, payment processing, and admin dashboard. Built with modern MERN stack.",
-      image: "https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=1000&auto=format&fit=crop",
-      tags: ["React", "Node.js", "MongoDB", "Stripe", "JWT"],
-      demoLink: "https://frontend-two-zeta-70.vercel.app/",
-      codeLink: "https://github.com/your-username/ecommerce-platform",
-      features: ["User Auth", "Cart System", "Payment Gateway", "Order Tracking"]
+      desc: "A complete Netflix clone with user authentication, movie browsing, video streaming, and personalized recommendations. Built with MERN stack and TMDB API.",
+      image: "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?q=80&w=1000&auto=format&fit=crop",
+      tags: ["React", "Node.js", "MongoDB", "Express", "TMDB API", "TailwindCSS"],
+      demoLink: "https://mern-netflix-clone-silk.vercel.app/",
+      codeLink: "https://github.com/CodewithSuffyan/mern-netflix-clone",
+      features: ["User Auth", "Movie Categories", "Video Player", "Search Movies", "Responsive Design"]
     },
     {
       id: 2,
@@ -24,8 +24,8 @@ const Projects = () => {
       desc: "A cross-platform social networking app with real-time messaging, posts, stories, and user profiles. Built with React Native and Supabase.",
       image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=1000&auto=format&fit=crop",
       tags: ["React Native", "Supabase", "Expo", "Real-time", "Push Notifications"],
-      demoLink: "#",
-      codeLink: "https://github.com/your-username/social-media-app",
+      demoLink: "https://expo.dev/accounts/codewithsufi/projects/super-social-app/builds/ce05e216-4459-466f-a5c6-8fe71c1b493d",
+      codeLink: "https://github.com/CodewithSuffyan/super-social-app",
       features: ["Real-time Chat", "Image Posts", "Push Notifications", "User Profiles"]
     },
     {
@@ -66,6 +66,18 @@ const Projects = () => {
     },
     {
       id: 6,
+      title: "Food Delivery App",
+      category: "Mobile App",
+      type: "mobile",
+      desc: "A complete food delivery solution with restaurant discovery, real-time order tracking, and integrated payment system.",
+      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1000&auto=format&fit=crop",
+      tags: ["React Native", "Node.js", "MongoDB", "Google Maps", "Razorpay"],
+      demoLink: "https://your-demo-link.com",
+      codeLink: "https://github.com/your-username/food-delivery",
+      features: ["Restaurant Search", "Real-time Tracking", "Order History", "Reviews"]
+    },
+    {
+      id: 7,
       title: "Food Delivery App",
       category: "Mobile App",
       type: "mobile",
